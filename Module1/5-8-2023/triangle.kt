@@ -6,4 +6,4 @@ fun main()
 
     val triangleArea = (h*r)/2
     println("Area of Triangle is: $triangleArea")
-}
+} 
