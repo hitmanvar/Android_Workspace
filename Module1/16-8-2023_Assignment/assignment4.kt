@@ -7,4 +7,4 @@ fun main()
     val asciiValue = charInput.toInt()
     println("ASCII value of '$charInput' is: $asciiValue")
     
-}
+} 

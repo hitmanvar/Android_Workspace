@@ -19,4 +19,4 @@ fun main()
         println("Division by zero is not allowed.")
     }
 
-}
+} 

@@ -9,4 +9,4 @@ fun main()
     {
         println("$num is odd.")
     }
-}
+} 

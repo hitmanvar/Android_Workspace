@@ -8,5 +8,5 @@ fun main()
 
     val sum = firstInput + secondInput
     println("Sum of $firstInput and $secondInput is: $sum")
-    
+     
 }
