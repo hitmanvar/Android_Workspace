@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="india"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:gravity="left|bottom"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/India"
+            android:layout_below="@+id/t1"/>
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="usa"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:gravity="left|bottom"
+            android:textStyle="bold"
+            android:layout_below="@+id/i1"
+            android:layout_marginTop="20dp"/>
+
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/Usa"
+            android:layout_below="@+id/t2"/>
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="dubai"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:gravity="left|bottom"
+            android:textStyle="bold"
+            android:layout_below="@+id/i2"
+            android:layout_marginTop="20dp"/>
+
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/t3"
+            android:layout_marginTop="-1dp"
+            android:src="@drawable/Dubai" />
+
+
+    </RelativeLayout>
+</ScrollView>
