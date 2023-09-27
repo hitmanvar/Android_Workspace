@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.RelativeLayout
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
 
 class colorChanger : AppCompatActivity() {
 
@@ -16,6 +18,8 @@ class colorChanger : AppCompatActivity() {
     lateinit var btn4 : Button
     lateinit var  btnLog : Button
     lateinit var  btnReg : Button
+    lateinit var  btnlife : Button
+    lateinit var  btnatof : Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +33,8 @@ class colorChanger : AppCompatActivity() {
         btn4 = findViewById(R.id.btnChngScr)
         btnLog = findViewById(R.id.btnLogin)
         btnReg = findViewById(R.id.btnReg)
+        btnlife = findViewById(R.id.btnlife)
+        btnatof = findViewById(R.id.btnAtoF)
 
         btn1.setOnClickListener {
 
@@ -62,6 +68,18 @@ class colorChanger : AppCompatActivity() {
         btnReg.setOnClickListener {
             var i =Intent(applicationContext,RegistrattionPage::class.java)
             startActivity(i)
+        }
+
+        btnlife.setOnClickListener {
+            var i =Intent(applicationContext,ActivityLifeCycle::class.java)
+            startActivity(i)
+        }
+
+        btnatof.setOnClickListener {
+            var b1 = BlankFragment()
+            var fm: FragmentManager = supportFragmentManager
+            var ft: FragmentTransaction = fm.beginTransaction()
+            ft.replace(R.id.frm1,b1).commit()
         }
 
     }
