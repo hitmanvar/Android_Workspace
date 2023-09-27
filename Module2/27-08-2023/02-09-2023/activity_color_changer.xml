@@ -37,7 +37,7 @@
         android:id="@+id/btnChngScr"
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
-        android:layout_marginTop="25dp"
+
         android:layout_height="wrap_content"
         android:text="Change Screen"
         android:layout_below="@id/btnPink"/>
@@ -46,7 +46,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
-        android:layout_marginTop="25dp"
+
         android:layout_height="wrap_content"
         android:text="Login Page"
         android:layout_below="@id/btnChngScr"/>
@@ -58,5 +58,28 @@
         android:layout_height="wrap_content"
         android:text="Register Page"
         android:layout_below="@id/btnLogin"/>
+
+    <Button
+        android:id="@+id/btnlife"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="Activity LifeCycle"
+        android:layout_below="@id/btnReg"/>
+    <Button
+        android:id="@+id/btnAtoF"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="48dp"
+        android:text="Activity To Fragment"
+        android:layout_below="@id/btnlife"/>
+
+    <FrameLayout
+        android:id="@+id/frm1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnAtoF"/>
+
+
 
 </RelativeLayout>
