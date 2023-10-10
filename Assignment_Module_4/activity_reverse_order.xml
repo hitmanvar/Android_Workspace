@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReverseOrder"
+    >
+
+
+    <EditText
+        android:id="@+id/edtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Any Text"/>
+
+    <TextView
+        android:id="@+id/txtReverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_secondary"
+        android:layout_below="@+id/edtTxt"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Any Number"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtReverse"/>
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Any Number"
+        android:layout_below="@id/edtNum1"/>
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/edtNum2"/>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:layout_marginTop="2dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnClick"/>
+
+    <Button
+        android:id="@+id/btnNewTasksModule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Module Task"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnGo"/>
+
+    <Button
+        android:id="@+id/btnRadioBtnColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio Button Color"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnNewTasksModule"/>
+
+    <Button
+        android:id="@+id/btnChk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox Hide Show"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnRadioBtnColor"/>
+
+    <Button
+        android:id="@+id/btnSeekbarAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SeekBar BG Color"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnChk"/>
+
+    <Button
+        android:id="@+id/btnListAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListView String"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnSeekbarAct"/>
+
+    <Button
+        android:id="@+id/btnToolBarAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToolBar Activity"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnListAct"/>
+
+    <Button
+        android:id="@+id/btnImageMarginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ImageMarginTextView"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnToolBarAct"/>
+
+    <Button
+        android:id="@+id/btnchkNetwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Network Connection"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnImageMarginTextView"/>
+
+    <Button
+        android:id="@+id/btnFragmentTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment Task"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnchkNetwork"/>
+
+    <Button
+        android:id="@+id/btnCustomToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Toolbar"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnFragmentTask"/>
+
+</RelativeLayout>
